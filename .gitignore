@@ -2,7 +2,6 @@
 
 # compiled output
 dist
-tmp
 /out-tsc
 
 # dependencies
@@ -40,3 +39,6 @@ Thumbs.db
 
 .nx/cache
 .nx/workspace-data
+
+tmp/*
+!tmp/.gitignore
