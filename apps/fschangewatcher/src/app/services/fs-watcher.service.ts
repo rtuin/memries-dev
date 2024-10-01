@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import chokidar from 'chokidar';
+import ExifReader from 'exifreader';
 import { FsEventProducerService } from '../../messaging/services/fs-event-producer.service';
 
 @Injectable()
@@ -38,9 +39,17 @@ export class FsWatcherService {
     fullPath: string
   ): Promise<void> {
     console.log(`FS event - ${eventType.padEnd(8, ' ')} - ${fullPath}`);
+    let metadata;
+    try {
+      metadata = await ExifReader.load(fullPath);
+    } catch {
+      console.error(`Error loading metadata for ${fullPath}:`);
+    }
+
     await this.fsEventProducer.publishEvent({
       type: eventType,
       path: fullPath,
+      metadata: metadata,
     });
   }
 }

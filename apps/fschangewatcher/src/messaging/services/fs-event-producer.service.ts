@@ -1,10 +1,13 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { FsEvent } from '../events/fs.event';
 import { MessagingProducer } from '../producers/messaging.producer';
 
 @Injectable()
 export class FsEventProducerService {
-  constructor(private readonly messagePublisher: MessagingProducer) {}
+  constructor(
+    @Inject('MessagingProducer')
+    private readonly messagePublisher: MessagingProducer
+  ) {}
 
   async publishEvent(event: FsEvent): Promise<void> {
     try {

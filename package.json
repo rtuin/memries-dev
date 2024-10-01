@@ -12,6 +12,7 @@
     "@nx/nest": "^19.8.2",
     "axios": "^1.6.0",
     "chokidar": "^4.0.1",
+    "exifreader": "^4.23.5",
     "kafkajs": "^2.2.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0"

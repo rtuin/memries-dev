@@ -1,4 +1,9 @@
-import { Inject, Injectable } from '@nestjs/common';
+import {
+  Inject,
+  Injectable,
+  OnModuleDestroy,
+  OnModuleInit,
+} from '@nestjs/common';
 import {
   CompressionTypes,
   Kafka,
@@ -9,7 +14,9 @@ import {
 import { MessagingProducer } from './messaging.producer';
 
 @Injectable()
-export class KafkaMessagingProducer implements MessagingProducer {
+export class KafkaMessagingProducer
+  implements MessagingProducer, OnModuleInit, OnModuleDestroy
+{
   private readonly producer: Producer;
 
   constructor(@Inject('KAFKA_CLIENT') private readonly kafka: Kafka) {
@@ -19,14 +26,18 @@ export class KafkaMessagingProducer implements MessagingProducer {
   }
 
   async publish(topic: string, message: Message): Promise<void> {
+    // if (!this.producer.) {
+    //   await this.producer.connect();
+    // }
     await this.producer.send({
       topic,
       messages: [message],
-      compression: CompressionTypes.LZ4,
+      compression: CompressionTypes.GZIP,
     });
   }
 
   public async onModuleInit() {
+    console.log('Connecting....');
     await this.producer.connect();
   }
 

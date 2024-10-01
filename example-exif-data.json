@@ -1,0 +1,399 @@
+{
+  "type": "add",
+  "path": "/Users/rtuin/Sites/nasdev/memries-dev/tmp/96CC6F45-5051-4A66-BC3B-870FB8087748_1_105_c.jpeg",
+  "metadata": {
+    "Bits Per Sample": { "value": 8, "description": "8" },
+    "Image Height": { "value": 1024, "description": "1024px" },
+    "Image Width": { "value": 768, "description": "768px" },
+    "Color Components": { "value": 3, "description": "3" },
+    "Subsampling": {
+      "value": [
+        [1, 34, 0],
+        [2, 17, 1],
+        [3, 17, 1]
+      ],
+      "description": "YCbCr4:2:0 (2 2)"
+    },
+    "Thumbnail": {
+      "Compression": { "id": 259, "value": 6, "description": 6 },
+      "XResolution": { "id": 282, "value": [72, 1], "description": "72" },
+      "YResolution": { "id": 283, "value": [72, 1], "description": "72" },
+      "ResolutionUnit": {
+        "id": 296,
+        "value": 2,
+        "description": "inches"
+      },
+      "JPEGInterchangeFormat": {
+        "id": 513,
+        "value": 2538,
+        "description": 2538
+      },
+      "JPEGInterchangeFormatLength": {
+        "id": 514,
+        "value": 8290,
+        "description": 8290
+      },
+      "type": "image/jpeg",
+      "image": {},
+      "base64": "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"
+    },
+    "Make": { "id": 271, "value": ["Apple"], "description": "Apple" },
+    "Model": {
+      "id": 272,
+      "value": ["iPhone 11 Pro"],
+      "description": "iPhone 11 Pro"
+    },
+    "XResolution": { "id": 282, "value": [72, 1], "description": "72" },
+    "YResolution": { "id": 283, "value": [72, 1], "description": "72" },
+    "ResolutionUnit": { "id": 296, "value": 2, "description": "inches" },
+    "Software": { "id": 305, "value": ["16.0"], "description": "16.0" },
+    "DateTime": {
+      "id": 306,
+      "value": ["2022:11:05 16:55:06"],
+      "description": "2022:11:05 16:55:06"
+    },
+    "HostComputer": {
+      "id": 316,
+      "value": ["iPhone 11 Pro"],
+      "description": "iPhone 11 Pro"
+    },
+    "YCbCrPositioning": {
+      "id": 531,
+      "value": 1,
+      "description": "centered"
+    },
+    "Exif IFD Pointer": { "id": 34665, "value": 222, "description": 222 },
+    "GPS Info IFD Pointer": {
+      "id": 34853,
+      "value": 2194,
+      "description": 2194
+    },
+    "ExposureTime": {
+      "id": 33434,
+      "value": [1, 56],
+      "description": "1/56"
+    },
+    "FNumber": { "id": 33437, "value": [9, 5], "description": "f/1.8" },
+    "ExposureProgram": {
+      "id": 34850,
+      "value": 2,
+      "description": "Normal program"
+    },
+    "ISOSpeedRatings": { "id": 34855, "value": 400, "description": 400 },
+    "ExifVersion": {
+      "id": 36864,
+      "value": [48, 50, 51, 50],
+      "description": "0232"
+    },
+    "DateTimeOriginal": {
+      "id": 36867,
+      "value": ["2022:11:05 16:55:06"],
+      "description": "2022:11:05 16:55:06"
+    },
+    "DateTimeDigitized": {
+      "id": 36868,
+      "value": ["2022:11:05 16:55:06"],
+      "description": "2022:11:05 16:55:06"
+    },
+    "OffsetTime": {
+      "id": 36880,
+      "value": ["+01:00"],
+      "description": "+01:00"
+    },
+    "OffsetTimeOriginal": {
+      "id": 36881,
+      "value": ["+01:00"],
+      "description": "+01:00"
+    },
+    "OffsetTimeDigitized": {
+      "id": 36882,
+      "value": ["+01:00"],
+      "description": "+01:00"
+    },
+    "ComponentsConfiguration": {
+      "id": 37121,
+      "value": [1, 2, 3, 0],
+      "description": ""
+    },
+    "ShutterSpeedValue": {
+      "id": 37377,
+      "value": [70822, 12203],
+      "description": "1/56"
+    },
+    "ApertureValue": {
+      "id": 37378,
+      "value": [54823, 32325],
+      "description": "1.80"
+    },
+    "BrightnessValue": {
+      "id": 37379,
+      "value": [20091, 18692],
+      "description": "1.0748448534132249"
+    },
+    "ExposureBiasValue": {
+      "id": 37380,
+      "value": [0, 1],
+      "description": "0"
+    },
+    "MeteringMode": { "id": 37383, "value": 5, "description": "Pattern" },
+    "Flash": {
+      "id": 37385,
+      "value": 16,
+      "description": "Flash did not fire, compulsory flash mode"
+    },
+    "FocalLength": {
+      "id": 37386,
+      "value": [17, 4],
+      "description": "4.25 mm"
+    },
+    "SubjectArea": {
+      "id": 37396,
+      "value": [1973, 1480, 2180, 1369],
+      "description": "Rectangle; X: 1973, Y: 1480, width: 2180, height: 1369"
+    },
+    "MakerNote": {
+      "id": 37500,
+      "value": [
+        65, 112, 112, 108, 101, 32, 105, 79, 83, 0, 0, 1, 77, 77, 0, 38, 0, 1,
+        0, 9, 0, 0, 0, 1, 0, 0, 0, 14, 0, 2, 0, 7, 0, 0, 2, 46, 0, 0, 1, 220, 0,
+        3, 0, 7, 0, 0, 0, 104, 0, 0, 4, 10, 0, 4, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1,
+        0, 5, 0, 9, 0, 0, 0, 1, 0, 0, 0, 178, 0, 6, 0, 9, 0, 0, 0, 1, 0, 0, 0,
+        180, 0, 7, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0, 10, 0, 0, 0, 3, 0, 0,
+        4, 114, 0, 12, 0, 10, 0, 0, 0, 2, 0, 0, 4, 138, 0, 13, 0, 9, 0, 0, 0, 1,
+        0, 0, 0, 22, 0, 14, 0, 9, 0, 0, 0, 1, 0, 0, 0, 4, 0, 16, 0, 9, 0, 0, 0,
+        1, 0, 0, 0, 1, 0, 17, 0, 2, 0, 0, 0, 37, 0, 0, 4, 154, 0, 20, 0, 9, 0,
+        0, 0, 1, 0, 0, 0, 12, 0, 23, 0, 9, 0, 0, 0, 1, 34, 80, 32, 0, 0, 25, 0,
+        9, 0, 0, 0, 1, 0, 0, 32, 2, 0, 26, 0, 2, 0, 0, 0, 6, 0, 0, 4, 192, 0,
+        31, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 32, 0, 2, 0, 0, 0, 37, 0, 0, 4,
+        198, 0, 33, 0, 10, 0, 0, 0, 1, 0, 0, 4, 236, 0, 35, 0, 9, 0, 0, 0, 2, 0,
+        0, 4, 244, 0, 37, 0, 9, 0, 0, 0, 1, 0, 0, 20, 142, 0, 38, 0, 9, 0, 0, 0,
+        1, 0, 0, 0, 3, 0, 39, 0, 10, 0, 0, 0, 1, 0, 0, 4, 252, 0, 43, 0, 2, 0,
+        0, 0, 37, 0, 0, 5, 4, 0, 45, 0, 9, 0, 0, 0, 1, 0, 0, 20, 93, 0, 46, 0,
+        9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 47, 0, 9, 0, 0, 0, 1, 0, 0, 0, 121, 0, 51,
+        0, 9, 0, 0, 0, 1, 0, 0, 48, 0, 0, 52, 0, 9, 0, 0, 0, 1, 0, 0, 0, 5, 0,
+        53, 0, 9, 0, 0, 0, 1, 0, 0, 0, 4, 0, 54, 0, 9, 0, 0, 0, 1, 0, 0, 0, 136,
+        0, 55, 0, 9, 0, 0, 0, 1, 0, 0, 0, 4, 0, 58, 0, 9, 0, 0, 0, 1, 0, 0, 0,
+        0, 0, 59, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 60, 0, 9, 0, 0, 0, 1, 0, 0,
+        0, 4, 0, 65, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 74, 0, 9, 0, 0, 0, 1, 0,
+        0, 0, 2, 0, 0, 0, 0, 98, 112, 108, 105, 115, 116, 48, 48, 79, 17, 2, 0,
+        159, 0, 154, 0, 172, 0, 173, 0, 139, 0, 103, 0, 108, 0, 109, 0, 98, 0,
+        77, 0, 94, 0, 89, 0, 73, 0, 57, 0, 70, 0, 78, 0, 4, 2, 40, 1, 170, 0,
+        152, 0, 141, 0, 107, 0, 109, 0, 106, 0, 97, 0, 79, 0, 99, 0, 87, 0, 90,
+        0, 83, 0, 80, 0, 70, 0, 58, 1, 47, 1, 225, 0, 85, 0, 93, 0, 92, 0, 96,
+        0, 89, 0, 81, 0, 81, 0, 97, 0, 126, 0, 89, 0, 84, 0, 78, 0, 69, 0, 26,
+        0, 51, 0, 90, 0, 82, 0, 51, 0, 50, 0, 29, 0, 17, 0, 44, 0, 74, 0, 88, 0,
+        119, 0, 80, 0, 75, 0, 69, 0, 58, 0, 5, 1, 125, 0, 60, 0, 37, 0, 26, 0,
+        226, 0, 1, 1, 169, 0, 88, 0, 70, 0, 73, 0, 114, 0, 82, 0, 67, 0, 61, 0,
+        61, 0, 92, 1, 180, 0, 106, 0, 68, 0, 61, 0, 249, 0, 204, 1, 90, 1, 4, 1,
+        121, 0, 131, 0, 182, 0, 195, 0, 182, 0, 152, 0, 54, 0, 106, 1, 168, 0,
+        79, 0, 56, 0, 57, 0, 119, 0, 25, 2, 219, 1, 239, 1, 22, 2, 118, 1, 0, 1,
+        198, 0, 179, 0, 233, 0, 75, 0, 76, 1, 163, 0, 74, 0, 62, 0, 63, 0, 62,
+        0, 182, 1, 195, 2, 95, 2, 213, 1, 54, 1, 228, 0, 98, 1, 76, 1, 243, 0,
+        96, 0, 80, 1, 106, 0, 75, 0, 63, 0, 69, 0, 67, 0, 106, 1, 67, 2, 22, 2,
+        153, 1, 234, 0, 169, 0, 185, 0, 224, 0, 202, 0, 77, 0, 107, 1, 118, 0,
+        91, 0, 82, 0, 83, 0, 88, 0, 255, 0, 31, 2, 144, 1, 47, 1, 172, 0, 132,
+        0, 67, 0, 75, 0, 86, 0, 84, 0, 88, 1, 120, 0, 103, 0, 91, 0, 83, 0, 91,
+        0, 88, 0, 49, 1, 223, 0, 221, 0, 139, 0, 117, 0, 193, 0, 196, 0, 177, 0,
+        185, 0, 209, 0, 124, 0, 103, 0, 100, 0, 87, 0, 84, 0, 68, 0, 132, 0, 48,
+        1, 77, 1, 107, 1, 134, 1, 139, 1, 54, 1, 235, 0, 179, 0, 235, 0, 163, 0,
+        99, 0, 154, 0, 108, 0, 73, 0, 87, 0, 45, 0, 219, 1, 173, 1, 117, 1, 78,
+        1, 56, 1, 5, 1, 195, 0, 202, 0, 155, 0, 127, 0, 109, 0, 87, 0, 77, 0,
+        85, 0, 96, 0, 44, 0, 4, 1, 140, 2, 192, 1, 237, 0, 196, 0, 204, 0, 232,
+        0, 237, 0, 139, 0, 118, 0, 106, 0, 82, 0, 73, 0, 84, 0, 112, 0, 61, 0,
+        77, 0, 92, 2, 38, 2, 83, 1, 217, 0, 127, 0, 28, 1, 245, 0, 125, 0, 111,
+        0, 96, 0, 74, 0, 65, 0, 73, 0, 100, 0, 88, 0, 51, 0, 134, 1, 116, 2,
+        218, 1, 90, 1, 236, 0, 6, 1, 40, 1, 0, 8, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0,
+        0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12, 98,
+        112, 108, 105, 115, 116, 48, 48, 212, 1, 2, 3, 4, 5, 6, 7, 8, 85, 102,
+        108, 97, 103, 115, 85, 118, 97, 108, 117, 101, 89, 116, 105, 109, 101,
+        115, 99, 97, 108, 101, 85, 101, 112, 111, 99, 104, 16, 1, 19, 0, 2, 182,
+        95, 109, 158, 180, 24, 18, 59, 154, 202, 0, 16, 0, 8, 17, 23, 29, 39,
+        45, 47, 56, 61, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 255, 255, 195, 148, 0, 2, 52,
+        149, 255, 255, 209, 180, 0, 0, 50, 185, 255, 255, 40, 154, 0, 2, 24,
+        183, 0, 0, 0, 213, 0, 0, 0, 128, 0, 0, 0, 171, 0, 0, 0, 128, 49, 49, 49,
+        50, 56, 53, 49, 66, 45, 68, 56, 67, 66, 45, 52, 69, 53, 65, 45, 66, 55,
+        54, 54, 45, 50, 67, 67, 49, 51, 68, 65, 52, 68, 66, 69, 53, 0, 0, 113,
+        55, 53, 48, 110, 0, 48, 69, 57, 54, 51, 70, 54, 50, 45, 69, 55, 56, 56,
+        45, 52, 55, 57, 66, 45, 66, 70, 70, 67, 45, 52, 68, 57, 67, 56, 57, 50,
+        50, 57, 69, 49, 50, 0, 0, 0, 0, 249, 65, 0, 1, 39, 154, 0, 0, 0, 20, 16,
+        0, 0, 56, 0, 1, 150, 171, 0, 0, 12, 218, 52, 57, 48, 56, 65, 52, 50, 69,
+        45, 57, 48, 49, 65, 45, 52, 56, 49, 53, 45, 65, 69, 55, 52, 45, 57, 57,
+        68, 67, 55, 55, 66, 66, 70, 49, 50, 53, 0, 0
+      ],
+      "description": "[Raw maker note data]"
+    },
+    "SubSecTimeOriginal": {
+      "id": 37521,
+      "value": ["023"],
+      "description": "023"
+    },
+    "SubSecTimeDigitized": {
+      "id": 37522,
+      "value": ["023"],
+      "description": "023"
+    },
+    "FlashpixVersion": {
+      "id": 40960,
+      "value": [48, 49, 48, 48],
+      "description": "0100"
+    },
+    "ColorSpace": {
+      "id": 40961,
+      "value": 65535,
+      "description": "Uncalibrated"
+    },
+    "PixelXDimension": { "id": 40962, "value": 768, "description": 768 },
+    "PixelYDimension": { "id": 40963, "value": 1024, "description": 1024 },
+    "SensingMethod": {
+      "id": 41495,
+      "value": 2,
+      "description": "One-chip color area sensor"
+    },
+    "SceneType": {
+      "id": 41729,
+      "value": 1,
+      "description": "A directly photographed image"
+    },
+    "ExposureMode": {
+      "id": 41986,
+      "value": 0,
+      "description": "Auto exposure"
+    },
+    "WhiteBalance": {
+      "id": 41987,
+      "value": 0,
+      "description": "Auto white balance"
+    },
+    "FocalLengthIn35mmFilm": {
+      "id": 41989,
+      "value": 26,
+      "description": 26
+    },
+    "SceneCaptureType": {
+      "id": 41990,
+      "value": 0,
+      "description": "Standard"
+    },
+    "LensSpecification": {
+      "id": 42034,
+      "value": [
+        [807365, 524263],
+        [6, 1],
+        [9, 5],
+        [12, 5]
+      ],
+      "description": "1.54-6 mm f/2.4"
+    },
+    "LensMake": { "id": 42035, "value": ["Apple"], "description": "Apple" },
+    "LensModel": {
+      "id": 42036,
+      "value": ["iPhone 11 Pro back triple camera 4.25mm f/1.8"],
+      "description": "iPhone 11 Pro back triple camera 4.25mm f/1.8"
+    },
+    "CompositeImage": {
+      "id": 42080,
+      "value": 2,
+      "description": "General Composite Image"
+    },
+    "GPSLatitudeRef": {
+      "id": 1,
+      "value": ["N"],
+      "description": "North latitude"
+    },
+    "GPSLatitude": {
+      "id": 2,
+      "value": [
+        [52, 1],
+        [30, 1],
+        [600, 100]
+      ],
+      "description": 52.501666666666665
+    },
+    "GPSLongitudeRef": {
+      "id": 3,
+      "value": ["E"],
+      "description": "East longitude"
+    },
+    "GPSLongitude": {
+      "id": 4,
+      "value": [
+        [6, 1],
+        [8, 1],
+        [731, 100]
+      ],
+      "description": 6.1353638888888895
+    },
+    "GPSAltitudeRef": {
+      "id": 5,
+      "value": 1,
+      "description": "Sea level reference (negative value)"
+    },
+    "GPSAltitude": {
+      "id": 6,
+      "value": [53194, 16099],
+      "description": "3.3041803838747748 m"
+    },
+    "GPSSpeedRef": {
+      "id": 12,
+      "value": ["K"],
+      "description": "Kilometers per hour"
+    },
+    "GPSSpeed": { "id": 13, "value": [0, 1], "description": "0" },
+    "GPSImgDirectionRef": {
+      "id": 16,
+      "value": ["T"],
+      "description": "True direction"
+    },
+    "GPSImgDirection": {
+      "id": 17,
+      "value": [103608, 4327],
+      "description": "23.944534319389877"
+    },
+    "GPSDestBearingRef": {
+      "id": 23,
+      "value": ["T"],
+      "description": "True direction"
+    },
+    "GPSDestBearing": {
+      "id": 24,
+      "value": [103608, 4327],
+      "description": "23.944534319389877"
+    },
+    "GPSHPositioningError": {
+      "id": 31,
+      "value": [1920526, 1121],
+      "description": "1713.2256913470117"
+    },
+    "Preferred CMM type": { "value": "appl", "description": "Apple" },
+    "Profile Version": { "value": "4.0.0", "description": "4.0.0" },
+    "Profile/Device class": {
+      "value": "mntr",
+      "description": "Display Device profile"
+    },
+    "Color Space": { "value": "RGB ", "description": "RGB " },
+    "Connection Space": { "value": "XYZ ", "description": "XYZ " },
+    "ICC Profile Date": {
+      "value": "2022-01-01T00:00:00.000Z",
+      "description": "2022-01-01T00:00:00.000Z"
+    },
+    "ICC Signature": { "value": "acsp", "description": "acsp" },
+    "Primary Platform": { "value": "APPL", "description": "Apple" },
+    "Device Manufacturer": { "value": "APPL", "description": "Apple" },
+    "Device Model Number": {
+      "value": "\u0000\u0000\u0000\u0000",
+      "description": "\u0000\u0000\u0000\u0000"
+    },
+    "Rendering Intent": { "value": 0, "description": "Perceptual" },
+    "Profile Creator": { "value": "appl", "description": "appl" },
+    "ICC Description": {
+      "value": "Display P3",
+      "description": "Display P3"
+    },
+    "ICC Copyright": {
+      "value": "Copyright Apple Inc., 2022",
+      "description": "Copyright Apple Inc., 2022"
+    },
+    "FileType": { "value": "jpeg", "description": "JPEG" }
+  }
+}
