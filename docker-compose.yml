@@ -1,9 +1,5 @@
-name: redpanda-quickstart-one-broker
-networks:
-  redpanda_network:
-    driver: bridge
-volumes:
-  redpanda-0: null
+name: memries-dev
+
 services:
   redpanda-0:
     command:
@@ -33,7 +29,7 @@ services:
     volumes:
       - redpanda-0:/var/lib/redpanda/data
     networks:
-      - redpanda_network
+      - memries_dev_network
     ports:
       - 18081:18081
       - 18082:18082
@@ -43,7 +39,7 @@ services:
     container_name: redpanda-console
     image: docker.redpanda.com/redpandadata/console:v2.7.2
     networks:
-      - redpanda_network
+      - memries_dev_network
     entrypoint: /bin/sh
     command: -c 'echo "$$CONSOLE_CONFIG_FILE" > /tmp/config.yml; /app/console'
     environment:
@@ -62,3 +58,21 @@ services:
       - 8080:8080
     depends_on:
       - redpanda-0
+  etcd:
+    image: bitnami/etcd:3.5
+    volumes:
+      - etcd:/bitnami/etcd
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_ADVERTISE_CLIENT_URLS=http://etcd:2379
+    ports:
+      - 2379:2379
+      - 2380:2380
+
+volumes:
+  redpanda-0: ~
+  etcd: ~
+
+networks:
+  memries_dev_network:
+    driver: bridge
